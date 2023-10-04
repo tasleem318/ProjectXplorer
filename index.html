@@ -6,7 +6,208 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+    <Style>
+        /* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #007acc;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Style the services section */
+#services {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.service {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the team section */
+#team {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the contact section */
+#contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+address {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    </Style>
 <body>
-    <h1>WELCOME</h1>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinary Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Veterinary Clinic</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Welcome to Our Veterinary Clinic</h2>
+            <p>Your pet's health is our top priority.</p>
+            <a href="#contact" class="cta-button">Contact Us</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="image1.jpg" alt="Service 1">
+            <h3>Preventive Care</h3>
+            <p>We offer routine check-ups and vaccinations.</p>
+        </div>
+        <!-- Add more service sections here -->
+    </section>
+
+    <section id="team">
+        <h2>Our Team</h2>
+        <div class="team-member">
+            <img src="team-member1.jpg" alt="Team Member 1">
+            <h3>Dr. Tasleem Ahmed</h3>
+            <p>Lead Veterinarian</p>
+        </div>
+        <!-- Add more team member sections here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please don't hesitate to reach out.</p>
+        <address>
+            <p>Shop no 4, Clifton pull, Hargisa bridge</p>
+            <p>Skardu, 71000</p>
+            <p>Email: info@petcareclinic.com</p>
+            <p>Phone: +92355-4801233</p>
+            <p>whatsapp: +92355-4801233</p>
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Veterinary Clinic</p>
+    </footer>
+</body>
+</html>
+
 </body>
 </html>
